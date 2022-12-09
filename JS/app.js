@@ -14,7 +14,6 @@ const Personne = function (name, firstName, age, job, hobbies) {
             this.job +"." + " Il adore jouer au " + this.hobbies + "." ;
     }
 }
-
 // creation de 2 personnes
 let Elodie = new Personne('Leclercq', 'Elodie', '16', 'actrice', 'scrable');
     console.log(Elodie.anyPropertyF());
